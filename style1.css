@@ -1,0 +1,368 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Suwit Jawa 2.0 */
+
+body {
+  background-image: url(img/bg.png);
+  font-family: arial;
+}
+.main-h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333,
+    -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,
+    0.7778174593px 0.7778174593px 0 #aaaaaa,
+    1.5556349186px 1.5556349186px 0 #aaaaaa,
+    2.3334523779px 2.3334523779px 0 #aaaaaa,
+    3.1112698372px 3.1112698372px 0 #aaaaaa,
+    3.8890872965px 3.8890872965px 0 #aaaaaa,
+    4.6669047558px 4.6669047558px 0 #aaaaaa,
+    5.4447222151px 5.4447222151px 0 #aaaaaa,
+    6.2225396744px 6.2225396744px 0 #aaaaaa,
+    7.0003571337px 7.0003571337px 0 #aaaaaa,
+    7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+p {
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: capitalize;
+  color: #e7e7e7;
+  text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333,
+    -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,
+    0.7778174593px 0.7778174593px 0 #aaaaaa;
+}
+
+.container {
+  width: 70%;
+  height: 100vh;
+  margin: 3rem auto;
+}
+
+.container .area-komputer {
+  display: flex;
+  background-color: aqua;
+  border-radius: 4rem 4rem 0 0;
+  width: 70%;
+  height: 50vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to bottom,
+    rgba(179, 220, 237, 1) 0%,
+    rgba(41, 184, 229, 1) 100%
+  );
+}
+
+.container .area-komputer img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.container .area-komputer h1,
+.container .area-player h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 14.9rem 27.6rem 0 0;
+  position: absolute;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333,
+    -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,
+    0.7778174593px 0.7778174593px 0 #aaaaaa,
+    1.5556349186px 1.5556349186px 0 #aaaaaa,
+    2.3334523779px 2.3334523779px 0 #aaaaaa,
+    3.1112698372px 3.1112698372px 0 #aaaaaa,
+    3.8890872965px 3.8890872965px 0 #aaaaaa,
+    4.6669047558px 4.6669047558px 0 #aaaaaa,
+    5.4447222151px 5.4447222151px 0 #aaaaaa,
+    6.2225396744px 6.2225396744px 0 #aaaaaa,
+    7.0003571337px 7.0003571337px 0 #aaaaaa,
+    7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+.container .area-komputer h2 {
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-left: -25.4rem;
+  transform: translateY(-7.3rem);
+}
+
+.container .area-player {
+  display: flex;
+  background-color: aquamarine;
+  border-radius: 0rem 0rem 4rem 4rem;
+  width: 70%;
+  height: 50vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to bottom,
+    rgb(38, 220, 147) 0%,
+    rgb(72, 228, 215) 100%
+  );
+}
+
+.container .area-player img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.container .area-player ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .area-player li {
+  padding: 1rem;
+}
+
+.container .area-player h1 {
+  position: absolute;
+  margin-bottom: 30rem;
+  margin-left: -3rem;
+}
+
+.container .info {
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 3rem;
+  border: 3px solid salmon;
+  width: 7rem;
+  height: 3rem;
+  box-sizing: border-box;
+  margin: -1.5rem 30% 0rem;
+  position: absolute;
+}
+
+.container .info h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0.7rem;
+  color: #f89bb4;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.gajah:hover,
+.semut:hover,
+.orang:hover,
+.active {
+  box-shadow: 0 0 10px 5px limegreen;
+  border-radius: 50%;
+}
+
+.gajah:active,
+.semut:active,
+.orang:active {
+  top: 2px;
+}
+
+@media (max-width: 450px) {
+  .main-h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    max-width: 15rem;
+    text-shadow: none;
+    color: #aaaaaa;
+    margin: auto;
+  }
+
+  .container {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+  }
+
+  .container .area-komputer img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .container .area-komputer h1 {
+    display: none;
+  }
+
+  .container .area-komputer h2 {
+    margin: 4rem 0 0 -11rem;
+    font-size: 0.9rem;
+  }
+
+  .container .info {
+    margin: -1.5rem 38%;
+  }
+
+  .container .area-player h1 {
+    display: none;
+  }
+
+  .container .area-player img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .container .area-komputer h1,
+  .container .area-player h1 {
+    display: none;
+  }
+
+  .container .area-player img {
+    width: 3rem;
+    height: 3rem;
+    margin: -0.3rem;
+  }
+
+  .container .area-komputer img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .container .area-komputer h2 {
+    margin-left: -6rem;
+    font-size: 0.8rem;
+  }
+
+  .container .info {
+    margin: -1.5rem 33%;
+  }
+}
